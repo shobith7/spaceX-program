@@ -1,0 +1,145 @@
+.container{
+    width: 100%;
+    display: table;
+    background-color: #F2F2F2;
+    font-family: "Neue","Helvetica","Arial","sans-serif";
+}
+
+.filterDisp{
+    background-color: #fff;
+    padding: 10px 0 50px 0;
+}
+
+.filterOPtions{
+    width:20%;
+    display: table-cell;
+    float:left;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+}
+
+.filtHeading{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.launchYear{
+    font-size: 18px;
+    margin: 20px 45px 5px 45px;
+    border-bottom: 2px solid #DFDCDA;
+}
+
+.yearShow, .selectedFilter{
+    display: inline-block;
+    width: 30%;
+    cursor: pointer;
+    background-color: #C5E09B;
+    margin: 8px 15px 10px 15px;
+    text-align: center;
+    border-radius: 4px;
+    height: 21px;
+    font-size: 18px;
+    padding: 2px;
+}
+
+.selectedFilter{
+    background-color: #7CBA01;
+}
+
+.dispProg{
+    width:70%;
+    display: table-cell;
+    float:left;
+    padding: 30px 30px 30px 0px;
+}
+
+.card{
+    width: 20%;
+    background-color: #fff;
+    margin: 0 10px 10px 0 ;
+    height: 425px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.cardImg{
+    width: 85%;
+    background-color: #F2F2F2;
+    padding: 5px;
+}
+
+.cardHeading{
+    height: 25px;
+    padding-bottom: 10px;
+    text-align: left;
+    color: #4F549C;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.mission, .missionId, .details{
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.missionId, .details{
+    margin: 10px 0 0 20px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #4F549C;
+}
+
+.details{
+    margin-left: 2px;
+}
+
+.clear{
+    float: right;
+    background-color: #E0E0E0;
+    padding: 5px;
+    font-size: 14px;
+    color: #424242;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media only screen and ( max-width : 1024px ){
+    .filterOPtions{
+        width: 30%;
+    }
+    .filterDisp{
+        margin: 15px;
+    }
+    .dispProg{
+        width: 60%;
+        padding: 45px 0 0 0;
+    }
+    .card{
+        width: 40%;
+        height: auto;
+    }
+}
+
+@media only screen and ( max-width : 700px ){
+    .filterOPtions{
+        width: 100%;
+        padding: 0px;
+    }
+    .filterDisp{
+        margin: 15px;
+    }
+    .dispProg{
+        width: 100%;
+        padding: 0;
+    }
+    .card{
+        width: 87%;
+        margin: 15px;
+        height: auto;
+    }
+}
