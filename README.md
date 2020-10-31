@@ -3,9 +3,9 @@
 https://spacex-program-kappa.vercel.app/
 
 ## Stack Used
-### Nextjs for Server side rendering
-### Reactjs 
-### global custom css for styling
+***1. Nextjs for Server side rendering***
+***2. Reactjs***
+***3. Global custom css for styling***
 Implemented all the required functionalities using **custom media queries**, latest **ReactJs Hooks**, **es6** and **Server Side Rendering** for every new request using **NextJs**.
 Deployed the application with CI/CD on **vercel**.
 
