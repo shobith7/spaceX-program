@@ -11,7 +11,7 @@ Implemented all the required functionalities using **custom media queries**, lat
 Deployed the application with CI/CD on **vercel**.
 
 ## To Run Project Locally
-Clone the repo
+Clone the repository:
 ```bash
 git clone https://github.com/shobith7/spaceX-program.git
 cd spaceX-program
