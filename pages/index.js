@@ -19,7 +19,6 @@ const InitialLoad = (props) => {
           }
         });
         filteredYears.sort( (a,b) => parseInt(a) - parseInt(b) );
-        console.log(props.router)
         setArrOfYears(filteredYears);
         setFetchedData(props.fetchedData);
         setDisplayData(props.fetchedData);
@@ -38,7 +37,6 @@ const InitialLoad = (props) => {
         props.router.query.launch_success === "false" ? "notLaunched" : "" : "";
         let land = props.router.query.land_success ?props.router.query.land_success === "true" ? "yesLanded" : 
         props.router.query.land_success === "false" ? "notLanded" : "" : "";
-        console.log(props.router)
         applyFilters({ data :props.fetchedData, year : props.router.query.launch_year, launch, land} );  
       }
   }, []);
