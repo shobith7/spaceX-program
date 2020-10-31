@@ -26,16 +26,16 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Mobile View Screenshots
-![mobile-view-1](https://github.com/shobith7/spaceX-program/master/public/mobile-view-1.png)
-![mobile-view-1](https://github.com/shobith7/spaceX-program/master/public/mobile-view-2.png)
-![mobile-view-1](https://github.com/shobith7/spaceX-program/master/public/mobile-view-3.png)
+![mobile-view-1](https://github.com/shobith7/spaceX-program/public/mobile-view-1.png)
+![mobile-view-1](https://github.com/shobith7/spaceX-program/public/mobile-view-2.png)
+![mobile-view-1](https://github.com/shobith7/spaceX-program/public/mobile-view-3.png)
 
 ## Tablet View Screenshots
-![tablet-view](https://github.com/shobith7/spaceX-program/master/public/tablet-view.png)
+![tablet-view](https://github.com/shobith7/spaceX-program/public/tablet-view.png)
 
 ## Desktop View Screenshots
-![desktop-view](https://github.com/shobith7/spaceX-program/master/public/desktop-view.png)
+![desktop-view](https://github.com/shobith7/spaceX-program/public/desktop-view.png)
 
 ## Lighthouse Report
-![lighthouse-report](https://github.com/shobith7/spaceX-program/master/public/lighthouse-report.png)
+![lighthouse-report](https://github.com/shobith7/spaceX-program/public/lighthouse-report.png)
 
