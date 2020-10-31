@@ -143,6 +143,9 @@ const InitialLoad = (props) => {
           ))}
         </div>
       }
+      <div className="developer">
+        <h3>{`Developed By - Shobith Kumar`}</h3>
+      </div>
     </div>
   )
 }
