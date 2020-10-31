@@ -26,7 +26,7 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Mobile View Screenshots
-![mobile-view-1](spaceX-program/public/mobile-view-1.png)
+![mobile-view-1](https://github.com/shobith7/spaceX-program/blob/main/public/mobile-view-1.png)
 ![mobile-view-1](https://github.com/shobith7/spaceX-program/public/mobile-view-2.png)
 ![mobile-view-1](https://github.com/shobith7/spaceX-program/public/mobile-view-3.png)
 
