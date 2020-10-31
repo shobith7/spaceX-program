@@ -40,7 +40,6 @@ const filters = (props) => {
               props.applyFilters({year : props.selectedYear, launch :"yesLaunched", land : props.successfulLanding});
               let query = `?limit=100&launch_success=true${props.successfulLanding==="yesLanded"? "&land_success=true" : ""}${props.selectedYear? `&launch_year=${props.selectedYear}` : ""}`
               props.router.push(query, query,{ shallow: true });
-              //props.history.push(`/${props.selectedYear? `year=${props.selectedYear}` : "year=notSelected" }/launch_success=true/land_success=${props.successfulLanding? true : false}`);
             }}>
               {`True`}
             </span>
@@ -51,7 +50,6 @@ const filters = (props) => {
               props.applyFilters({year : props.selectedYear, launch : "notLaunched", land : props.successfulLanding});
               let query = `?limit=100${props.successfulLanding==="yesLanded"? "&land_success=true" : ""}${props.selectedYear? `&launch_year=${props.selectedYear}` : ""}`
               props.router.push(query, query,{ shallow: true });
-              //props.history.push(`/${props.selectedYear? `year=${props.selectedYear}` : "year=notSelected" }/launch_success=false/land_success=${props.successfulLanding ? true : false}`);
             }}>
               {`False`}
             </span>
@@ -63,7 +61,6 @@ const filters = (props) => {
               props.applyFilters({ year : props.selectedYear, launch : props.successfulLaunch, land : "yesLanded" });
               let query = `?limit=100${props.successfulLaunch==="yesLaunched"? "&launch_success=true" : ""}&land_success=true${props.selectedYear? `&launch_year=${props.selectedYear}` : ""}`
               props.router.push(query, query,{ shallow: true });
-              //props.history.push(`/${props.selectedYear? `year=${props.selectedYear}` : "year=notSelected" }/launch_success=${props.successfulLaunch? true : false }/land_success=true`);
             }}>{`True`}</span>
             <span 
               className={props.successfulLanding === "notLanded" ? "selectedFilter" : "yearShow"}
@@ -72,7 +69,6 @@ const filters = (props) => {
               props.applyFilters({ year : props.selectedYear, launch : props.successfulLaunch, land : "notLanded" });
               let query = `?limit=100${props.successfulLaunch==="yesLaunched"? "&launch_success=true" : ""}${props.selectedYear? `&launch_year=${props.selectedYear}` : ""}`
               props.router.push(query, query,{ shallow: true });
-              //props.history.push(`/${props.selectedYear? `year=${props.selectedYear}` : "year=notSelected" }/launch_success=${props.successfulLaunch ? true : false }/land_success=false`);
             }}>{`False`}</span>
           </div>
         </div>
